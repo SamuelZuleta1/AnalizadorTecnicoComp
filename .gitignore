@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Archivos que genera PLY
+parser.out
+parsetab.py
+
+# macOS
+.DS_Store

@@ -4,14 +4,8 @@ import sys
 # lista de tokens
 tokens = (
     # funciones matemáticas
-    'SIN',
-    'COS',
-    'TAN',
-    'LOG',
-    'LN',
     'SQRT',
     'EXP',
-    'ABS',
     # constantes
     'PI',
     'E',
@@ -65,36 +59,12 @@ t_LPAREN    = r'\('
 t_RPAREN    = r'\)'
 t_SEMICOLON = r';'
 
-def t_SIN(t):
-    r'sin\b'
-    return t
-
-def t_COS(t):
-    r'cos\b'
-    return t
-
-def t_TAN(t):
-    r'tan\b'
-    return t
-
-def t_LOG(t):
-    r'log\b'
-    return t
-
-def t_LN(t):
-    r'ln\b'
-    return t
-
 def t_SQRT(t):
     r'sqrt\b'
     return t
 
 def t_EXP(t):
     r'exp\b'
-    return t
-
-def t_ABS(t):
-    r'abs\b'
     return t
 
 def t_PI(t):

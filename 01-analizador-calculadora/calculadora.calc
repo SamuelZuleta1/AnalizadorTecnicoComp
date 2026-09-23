@@ -9,13 +9,11 @@ resultado = x + y * 2 - 3 / 4;
 otro = (x + y) * (x - y);
 
 // Funciones matematicas y constantes
-angulo = sin(pi / 2);
-valor_cos = cos(0);
 raiz = sqrt(16);
 potencia = 2 ^ 8;
-val_log = log(100);
-val_ln = ln(2);
-valor_abs = abs(7);
+val_exp = exp(1);
+area = pi * 2 ^ 2;
+val_e = e * 2;
 
 /* Uso de modulo, ambas formas */
 resto1 = 10 mod 3;
